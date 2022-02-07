@@ -1,0 +1,37 @@
+{
+    "name": "viktorsel/laravel-CloudKassir",
+    "minimum-stability": "stable",
+    "type": "library",
+    "description": "CloudKassir library.",
+    "keywords": [
+        "CloudKassir",
+    ],
+    "homepage": "https://github.com/ViktorSel/Laravel-CloudKassir",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Selednikov", 
+            "email": "v.selednikov@gmail.com",
+            "homepage": "https://github.com/ViktorSel/",
+            "role": "Developer"
+        }
+    ],    
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": { "ViktorSel\\CloudKassir\\": "src" }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ViktorSel\\CloudKassir\\CloudKassirServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "ViktorSel\\CloudKassir\\Facades\\Check"
+            }
+        }
+    }
+}
