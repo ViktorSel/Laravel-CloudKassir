@@ -4,7 +4,7 @@
     "type": "library",
     "description": "CloudKassir library.",
     "keywords": [
-        "CloudKassir",
+        "CloudKassir"
     ],
     "homepage": "https://github.com/ViktorSel/Laravel-CloudKassir",
     "license": "MIT",
